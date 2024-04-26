@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width,inital-scale=1.0">
+	<title>Welcome to my portfolio!</title>
+	<meta name="description" content="This is a about page of Kiereon Skie, a mythical student of web design created by Kiereon Skie">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+	<img src="images/logo.png" height="269px" width="570px" alt="kiereon" class="logo"> 
+	<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="resume.html">Resume</a></li>
+	<li><a href="portfolio.html">Portfolio</a></li>
+	<li><a href="game.html">Game</a></li>
+	</ul>
+	</nav>
+</header>
+	<div id="home-hero">
+		<h1>Welcome to my portfolio!</h1>
+
+	</div>
+<main>
+	<!--This is the main section-->
+	<h2>About Me</h2>
+	<img src="images/me.jpg" height="446" width="446"
+	alt="photo of me" class="home-photo">
+	<p>My name is Kiereon Skie and I study Web Design and Web Programming at Saint Paul College in St. Paul, Minnesota. My planned gradutation date is May 2026 with Computer Programming Associates Degree. I made this website as a portfolio of my skills developing websites.</p>
+
+	<p>I have taken the following classes at Saint Paul College:
+		<ul>
+			<li>Web Fundamentals, where I learned HTML and CSS.</li>
+		</ul>
+	<p>Next semester I will be taking Computer Science and Information systems and Introduction to Computing and Programming Concepts. I am planning on also taking Adobe classes in order to expand my horizions in Photoshop and Illustrator.</p>
+
+	<p>My hobbies include creating beadwork for my daughters regalia and writing short fictional stories.</p>
+
+
+
+		<div class="gallery">
+
+    <div class="preview">
+        	<img id="preview" src="images/butterfly.jpg" style="	display:block;margin:0 auto;" alt=""  			height="600" width="800"/>
+    </div>
+
+    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/dance.jpg" alt=""  />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/mom.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/kelly.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/turtle.jpg" alt=""  />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/kyndra.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/river.jpg" alt="" />
+        <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/kruz.jpg" alt="" />
+    </div>
+    
+</div>
+</main>
+
+<footer>
+	<div class="container-fluid">
+		<div class="row footer1000">
+			<div class="col-sm-6">
+				<h3>Web Design Exercies</h3>				
+				<p>If you would like to connect with my about my webdesigns you can contact me via email, text, or call.</p>
+			</div>
+			<div class="col-sm-6">
+				<div class="footer-icons">
+					<h3>Connect with Kiereon Wilke</h3>
+				
+					<a href="mailto:kiereon5@gmail.com
+					"target="_blank">
+      				<h4><i class="fa fa-envelope-o" aria-hidden="true"></i></i>Send Email</h4>
+					</a>
+
+					
+					<a href="https://www.linkedin.com/in/kiereon-skie-7b61b3306/" target="_blank">
+      				<h4><i class="fa fa-linkedin-square" aria-hidden="true"></i>Connect on LinkedIn</h4>
+					</a>
+
+					<a href="https://www.instagram.com/humblewarriorwoman?igsh=dWxsMjhkODBycDhr" target="_blank">
+      				<h4><i class="fa fa-instagram" aria-hidden="true"></i>
+					</i>Connect on Instagram</h4>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<small>&copy; Kiereon Skie. All rights reserved.</small>
+	</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>    
+</html>
